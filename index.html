@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    <title>Weather Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+<h2 class = "topText title is-2 has-text-centered">Weather Dashboard</h2>
+<div class= "container">
+    <div class="columns">
+        <div class="card column is-one-third text-center">
+            <div class = "tile">
+            <span id = "errorMsg"></span>
+                <div class="field">
+                    <div class="control">
+                       <div class = "row form-group form-inline" id="rowDiv">
+                            <input type = "text" id = "citySearch" name = "city" class="form-control" placeholder="City Name">
+                            <button id = "cityBtn" class = "btn btn-primary"aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">Search</button>
+                        </div>
+                    </div>
+                    <br>
+                <div class="content">
+                    <ul class="list-group list-group-flush text-center" id = "showSearch">
+                        <h5><li class="list-group-item">Searched Cities </li></h5>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class = "column cityCard">
+            <div class="card-body" id = "cityCard">
+            </div>
+            <div class = "column">
+                    <h2 class = "text-center fiveDay">5 Day Forecast:
+                        <span id = "testCity"></span></h2>
+                        <div id = "test" ></div>
+                        </div> 
+            </div>  
+        </div>
+    </div>
+</div><!--closes container-->
+
+<body>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
