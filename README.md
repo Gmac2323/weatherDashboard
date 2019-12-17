@@ -16,7 +16,7 @@ UV index
 
 User has an option to go back in history and select previously searched cities.
 APIs Used -openweathermap API for current weather details, 5 day forecast and UV index.
-moment.js for getting current date.
+script.js for getting current date.
 Geolocation API for getting current location on page load.
 
 
