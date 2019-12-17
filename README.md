@@ -24,11 +24,9 @@ Geolocation API for getting current location on page load.
 
 HTML, 
 
-Bootstrap
-
-Bulma 
-
 CSS Frameworks
+  -Bootstrap
+  -Bulma 
 
 Javascript
 
