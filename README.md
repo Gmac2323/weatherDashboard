@@ -3,7 +3,7 @@
 
 This is a weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities.
 
-# Business Context
+# Instructions
 
 User can search for weather reports by city. By default current city's weather details are loaded.
 After searching for a city, the following information is displayed:
